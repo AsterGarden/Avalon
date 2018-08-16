@@ -1,1 +1,59 @@
-﻿
+﻿body {
+    background-color: rgba(0,0,0,0.9);
+    color: rgba(255,255,255,0.7);
+}
+
+p {
+    color: rgba(230,196,84,0.8);
+}
+h1 {
+    color: rgb(230,196,84);
+    
+
+}
+hr {
+    height: 1px;
+    border: none;
+    border-top: 1px solid #fff;
+    
+}
+
+.part1 {
+    width: 100%;
+    height: 400px;
+    margin-bottom:10px;
+    background: url("https://wx1.sinaimg.cn/mw690/95c4147fgy1fu01z30iu6j20du04ndgg.jpg");
+    background-size: 100% 400px;
+    background-repeat: no-repeat;   
+}
+
+.pic_0 {
+    position: relative;
+    top: 20%;
+      
+}
+#slogan1 {
+    color: rgba(255,255,255,1);
+    text-align: center;
+    
+    font-size: 50px;
+}
+
+#slogan2 {
+    color: rgba(255,255,255,1);
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#slogan1:hover {
+    color: rgb(230,196,84);
+}
+
+#slogan2:hover {
+    color: rgb(230,196,84);
+    }
+
+.part2{
+
+}
