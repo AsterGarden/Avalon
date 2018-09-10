@@ -1,0 +1,232 @@
+﻿body {
+    background-color: rgba(0,0,0,0.9);
+    color: rgba(255,255,255,0.7);
+}
+
+p {
+    color: rgba(230,196,84,0.9);
+    
+}
+h1 {
+    color: rgb(230,196,84);
+    font-weight:bold;
+
+}
+.p1{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.part1 {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 20px;
+    background: url("https://wx1.sinaimg.cn/mw690/95c4147fgy1fu01z30iu6j20du04ndgg.jpg");
+    background-size: 100% 400px;
+    background-repeat: no-repeat;
+}
+.part2 {
+    width: 90%;
+    height: 400px;
+    margin:0 auto;
+    margin-bottom:20px;
+}
+.author_text {
+    width: 50%;
+    height: 400px;
+    padding:10px;
+    display: inline;
+    float: left;
+}
+
+.author_img {
+    width: 50%;
+    height: 400px;
+    padding: 10px;
+    display: inline;
+    float: left;
+    background: url("http://pic.baike.soso.com/p/20131107/20131107112856-1327319658.jpg");
+    background-repeat: no-repeat;
+}
+
+.author_name {
+    text-align: center;
+    margin-top: 350px;
+    color: rgba(255,255,255,1);
+}
+
+.pic_0 {
+    position: relative;
+    top: 25%;
+}
+#slogan1 {
+    color: rgba(255,255,255,1);
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: 5px 5px 5px rgba(255,255,255,0.5);
+}
+
+#slogan2 {
+    color: rgba(255,255,255,1);
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: 5px 5px 5px rgba(255,255,255,0.5);
+  
+}
+
+#slogan1:hover {
+    color: rgb(230,196,84);
+}
+
+#slogan2:hover {
+    color: rgb(230,196,84);
+    }
+
+
+
+.pic_1 {
+    background: url("http://pic.baike.soso.com/p/20131107/20131107112856-1327319658.jpg");
+    width:500px;
+    height: 380px;
+}
+
+.pic {
+    width: 200px;
+    height: 240px;
+    margin: 0 auto;
+}
+
+.pic_3 {
+    background: url("https://wx3.sinaimg.cn/mw690/95c4147fgy1fubd88rvd3j205k06ojsl.jpg");
+}
+
+
+.pic_4 {
+    background: url("https://wx1.sinaimg.cn/mw690/95c4147fgy1fubd88rj4tj205k06ojt4.jpg" );
+}
+
+.pic_5 {
+    background: url("https://wx1.sinaimg.cn/mw690/95c4147fgy1fubd88s6l3j205k06oabk.jpg");
+    
+}
+
+
+.but {
+    margin: 30px auto;
+    text-align: center; 
+}
+
+
+.part3 {
+    margin-top: 20px;
+    width: 90%;
+    height: 560px;
+    margin: 0 auto;
+    background-color:rgba(255,255,255,0.1);
+}
+.book {
+    width: 33%;
+    height: 560px;
+    padding:30px;
+    display:inline;
+    float:left;
+}
+
+
+.carousel-inner img {
+    width: 1140px;
+    height: 650px;
+}
+
+.part7 {
+    width: 100%;
+    height: 650px;
+    margin-top: 20px;
+}
+#lines {
+    width: 1140px;
+    height: 650px;
+    margin: 0 auto;
+}
+.carousel-indicators {
+    margin-bottom: 10px;
+}
+.part4 {
+    width: 90%;
+    height: 800px;
+    background: url("http://pic.baike.soso.com/ugc/baikepic2/9863/20150122172011-202496550.jpg/0");
+    background-size: 110% 800px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+
+.part5 {
+    width: 90%;
+    height: 800px;
+    background: url("https://gss3.bdstatic.com/7Po3dSag_xI4khGkpoWK1HF6hhy/baike/crop%3D0%2C46%2C1024%2C675%3Bc0%3Dbaike116%2C5%2C5%2C116%2C38/sign=40ab6c4f751ed21b6d8674a5905ef1f0/95eef01f3a292df527c151a8b4315c6034a87309.jpg");
+    background-size: 110% 800px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+.part6 {
+    width: 90%;
+    height: 800px;
+    background: url("http://image.tpwang.com/image/%E9%AD%94/movie-%E9%AD%94%E6%88%923-%E7%8E%8B%E8%80%85%E5%BD%92%E6%9D%A5/%E9%AD%94%E6%88%923-%E7%8E%8B%E8%80%85%E5%BD%92%E6%9D%A590904.jpg");
+    background-size: 110% 800px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+}
+.introduce {
+    width: 100%;
+    height: 200px;
+    background: rgba(0,0,0,0.7);
+    padding-left:20px;
+    padding-right:20px;
+}
+.movietitle {
+    text-align: center;
+}
+.p_white {
+    color: rgba(255,255,255,1);
+}
+.video {
+    width: 65%;
+    height: 600px;
+    float: left;
+    display: inline;
+    background: rgba(0,0,0,0.7);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.music {
+    width: 35%;
+    height: 600px;
+    display: inline;
+    float: left;
+    background: rgba(0,0,0,0.7);
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.part8 {
+    margin-top: 20px;
+    width: 100%;
+    height: 400px;
+    background: url("http://wx1.sinaimg.cn/large/95c4147fgy1fubycp05taj20vq0b9k5p.jpg")
+}
+.word {
+    background-color: rgba(0,0,0,.7);
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}

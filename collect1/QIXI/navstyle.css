@@ -1,0 +1,97 @@
+﻿
+a:link,
+a:hover,
+a:visited
+a:active {
+  color: #fff;
+  text-decoration: none;
+}
+
+.card-holder {  
+  position: fixed;
+  width: 0px;
+  overflow: visible;
+}
+
+.card-wrapper {
+  display: inline-block;
+  float: right;
+  clear: both;
+}
+
+.card {
+  position: relative;
+  left: 32px;
+  padding: 16px 32px 16px 48px;
+  margin: 5px;  
+  x-box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 8px 0 8px -8px rgba(0, 0, 0, 0.5);
+  background: #fff;
+  transition: all 0.3s ease-in-out 0.1s;
+}
+
+.card:hover {
+  position: relative;
+  left: 100%;
+  margin-left: -32px;
+  box-shadow: 
+    0 -8px 8px -8px rgba(0, 0, 0, 0.5),
+    0 8px 8px -8px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+.nav {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    z-index:999;
+}
+.card-content {
+    display: inline-block;
+    color: #fff;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.bg-01 {
+    background: #0000c1;
+    opacity: 0.5;
+}
+.bg-02 {
+    background: #0000ae;
+    opacity: 0.5;
+}
+.bg-03 {
+    background: #0101ac;
+    opacity: 0.5;
+}
+.bg-04 {
+    background: #010194;
+    opacity: 0.5;
+}
+.bg-05 {
+    background: #00007a;
+    opacity: 0.5;
+}
+.bg-06 {
+    background: #00005e;
+    opacity: 0.5;
+}
+
+.bg-07 {
+    background: #020254;
+    opacity: 0.5;
+}
+
+.bg-08 {
+    background: #01014f;
+    opacity: 0.5;
+}
+
+.bg-09 {
+    background: #000038;
+    opacity: 0.5;
+}

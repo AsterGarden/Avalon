@@ -1,0 +1,22 @@
+﻿.part2 {
+    margin: 0;
+    padding-top: 10px;
+    background-color: :rgba(0,0,0,1);
+    color: rgba(255,255,255,0.8);
+    font-size: 20px;
+}
+.text-li {
+    background-color:rgba(0,0,0,1);
+   
+}
+
+.text_production {
+    width: 400px;
+    height: 200px;
+    margin-top:0;
+    padding-top:0;
+    
+}
+.music{
+    padding-bottom:5px;
+}

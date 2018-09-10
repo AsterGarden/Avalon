@@ -1,0 +1,164 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+}
+
+//主题色
+@color0:rgba(0,0,0,.5);
+@color1:rgba(0,0,0,.7);
+@bcolor0:rgba(220,220,220,.4);
+@color2:rgba(0,0,0,0);
+
+body{
+    background-color:@bcolor0;
+}
+//标准边框
+.biaozhun(@divh:500px){
+    width:90%;
+    height:@divh;
+    margin:0 auto;
+    margin-bottom:80px;
+
+}
+
+//图片样式
+.img0(@imgf){
+    width:70%;
+    height:450px;
+    float:@imgf;
+}
+
+//文字盒子
+.textdiv(@textw,@textfl,@theight,@talign,@tsiez){
+    width:@textw;
+    float:@textfl;
+    height:@theight;
+    text-align: @talign;
+    margin-top: 150px;
+    font-size: @tsiez;
+    color:@color0;
+    font-family: "微软雅黑";
+}
+
+.textdiv1(@martop,@fsize){
+    text-align: center;
+    margin-top: @martop;
+    font-size: @fsize;
+    color:@color1;
+    font-family: "微软雅黑";
+    p{margin: 10px auto;
+    letter-spacing: 10px;}
+}
+//按钮样式
+.but00(@butf){
+    width:5%;
+    color: @color1;
+    font-size:20px;
+    float:@butf;
+}
+
+//主体部分
+.div0{
+    .biaozhun(550px);
+    background-image:url("http://wx2.sinaimg.cn/large/95c4147fgy1fuzqo44ifhj21kw0si1l6.jpg");
+    background-size:100% 550px;
+    background-repeat:no-repeat; 
+        .div01{
+        padding-right: 40px;
+        .textdiv(40%,right,100px,right,50px);
+        p{margin: 10px auto;
+        letter-spacing: 10px;
+        }
+        
+    }  
+    
+     }
+
+.div1{
+    .biaozhun(200px);
+    .textdiv1(80px,30px)
+}    
+
+.div2{
+    .biaozhun(450px);
+    #img01{
+        .img0(left);
+    }
+    .div20{
+        .textdiv(25%,right,200px,center,60px);
+        
+    }
+}
+
+.div3{
+    .biaozhun(450px);
+    #img02{
+        .img0(right);
+    }
+    .div30{
+        .textdiv(25%,left,200px,center,60px);
+}
+}
+
+.div4{
+    .biaozhun(450px);
+    #img03{
+        .img0(left);
+    }
+    .div40{
+        .textdiv(25%,right,200px,center,60px);
+}
+}
+
+.div5{
+    .biaozhun(450px);  
+    #img04{
+        .img0(right);
+    }
+    .div50{
+        .textdiv(25%,left,200px,center,60px);
+}
+   
+}
+
+.div6{
+    .biaozhun(150px);
+     margin-bottom: 10px;
+    .textdiv1(50px,30px);
+        button{
+        padding:10px;
+        margin:30px; 
+    }
+}
+.div7{
+    .biaozhun(650px);
+    margin-bottom: 10px;
+    #imgb{
+        width:90%;
+        height:650px;
+        float:left;
+    }
+    img{
+        width:100%;
+        height:650px;
+    }
+    #but0{
+        .textdiv(5%,left,350px,center,20px);
+        margin-top: 0;
+        padding-top: 300px;
+        font-weight: 900;
+        button{
+            padding: 5px;
+        }
+    }
+    #but1{
+        .textdiv(5%,right,350px,center,20px);
+        margin-top: 0;
+        padding-top: 300px;
+        font-weight: 900;
+         button{
+            padding: 5px;
+        }
+    }
+    
+}
